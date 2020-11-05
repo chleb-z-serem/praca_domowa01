@@ -46,8 +46,8 @@
                      <children>
                         <SplitMenuButton layoutX="14.0" layoutY="54.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Czcionka">
                           <items>
-                            <MenuItem fx:id="Arial" mnemonicParsing="false" onAction="#wybArial" text="Action 1" />
-                            <MenuItem fx:id="TNR" mnemonicParsing="false" onAction="#wybTNR" text="Action 2" />
+                            <MenuItem fx:id="Arial" mnemonicParsing="false" onAction="#wybArial" text="Arial" />
+                            <MenuItem fx:id="TNR" mnemonicParsing="false" onAction="#wybTNR" text="Times New Roman" />
                           </items>
                         </SplitMenuButton>
                      </children>
@@ -58,7 +58,7 @@
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="130.0" prefWidth="127.0">
                      <children>
-                        <TextField fx:id="size" editable="false" layoutX="7.0" layoutY="53.0" prefHeight="25.0" prefWidth="50.0" text="${suwakZnakow.value}" />
+                        <TextField fx:id="size" editable="false" layoutX="7.0" layoutY="53.0" prefHeight="25.0" prefWidth="50.0" text="${suwakSize.value}" />
                         <Slider fx:id="suwakSize" layoutX="71.0" layoutY="7.0" majorTickUnit="5.0" max="30.0" min="5.0" minorTickCount="4" onMouseReleased="#ustawienieSize" orientation="VERTICAL" prefHeight="117.0" prefWidth="14.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="12.0" />
                      </children>
                   </AnchorPane>
